@@ -6,7 +6,7 @@
 
 <h2>Projeto</h2>
 <p>
-    A ideia principal do projeto, é você salvar seus filmes e séries favoritos, podendo marca-lo como assistido ou favorito. O projeto foi desenvolvido com o intuído de ser uma maneira de estudar PHP.
+    A ideia principal do projeto, é você salvar seus filmes e séries favoritos, podendo marca-los como assistidos ou favoritos. O projeto foi desenvolvido com o intuído de ser uma maneira de estudar PHP.
 </p>
 <h2>👨‍💻 Tecnologias</h2>
 <ul>
