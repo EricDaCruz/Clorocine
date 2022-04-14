@@ -1,0 +1,104 @@
+body{
+    background-color: #e5e5e5;
+}
+
+.nav-extended{
+    background-image: url('../image/capa.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-blend-mode: soft-light;
+}
+
+.tab a.active{
+    border-bottom: solid 2px #FFF;
+}
+
+.nav-header h1{
+    text-shadow: 2px 2px 8px black;
+}
+
+.detail,
+.errorPage{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.detail{
+    flex-direction: column;
+}
+
+.detail .backPage{
+    max-width: 80%;
+    width: 100%;
+    
+}
+
+.detail .backPage a{
+    color: #270b33;
+}
+
+.contentDetails{
+    background-color: #e5e5e5;
+    border-radius: 20px;
+    max-width: 80%;
+    width: 100%;
+}
+
+.contentDetails .row{
+    margin-bottom: 0;
+}
+.contentDetails .row .col{
+   padding: 0;
+}
+.contentDetails .contentPoster img{ 
+    max-width: 400px;
+    border-radius: 20px 0 0 20px;
+}
+.detailText .nota{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 70px;
+    height: 70px;
+
+    border-radius: 50%;
+    border: 4px solid #7b1fa2;
+}
+
+.detailText .nota span{
+    font-size: 18px;
+    font-weight: bold;
+    color: #7b1fa2;
+}
+
+.detailText .sinopse{
+    font-size: 20px;
+}
+
+.errorPage .contentMessage{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contentMessage h1{
+    color: #7b1fa2;
+    font-size:  150px;
+    letter-spacing: 10px;
+}
+.contentMessage .backPage{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    color: #7b1fa2;
+    margin-top: 100px;
+}
+
+.contentMessage .backPage i {
+    margin-right: 20px;
+}
